@@ -10,3 +10,14 @@
   - Write the result in a file.
 - Step 7: Write a program to Implement NER 
 - Step 8: Merge NER in Step 6.
+
+```
+Input: John went to the United States for his school
+Output1: John_NOUN went_VERB to the United_NOUN States_NOUN for his_NOUN school_NOUN
+Output2: John_NOUN went_VERB to the United_States_NER for his_NOUN school_NOUN
+```
+
+**note:**
+- 1: you can use any language/annotation style
+- 2: PTB POS tags: https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
+
